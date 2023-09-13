@@ -33,3 +33,25 @@
 - 아직도 JVM 스레드 갯수는 OS 스레드 갯수에 영향을 받고 있음
 - 스레드 풀에서 스레드를 하나 가져가면 동작하지 않아도 다른곳에서 가져갈 수 없음. 
 - 결과 값이 Feture가 반환되지만 조립은 할 수 없다 ? (get()을 써서 대기해야함. 각각의 스레드가 get()을 쓰면 각 스레드가 끝날때까지 기다려주는데 이것들을 하나로 취합하기 애매함 ?)
+
+```java
+private static final CountDownLatch latch = new CountDownLatch(2000);
+...
+latch.await(); // async/await 에서 await가 맞음.
+// 이게 async/await랑 비슷한 개념으로 동작하게 해줌.
+```
+
+### [[Fork&Join 프레임워크]]
+Java7에서 ExecutorService 기반으로 작성된 프레임워크.
+재귀적으로 더 작은 크기로 쪼갤 수 있는 태스크를 효율적으로 처리하기 위해서 만들어짐.
+ExecutorService를 대체는 못하고 병행해서 사용됨.
+
+ExecutorService와 다른점은 작업 빼가기(work-stealing)임.
+![[image3.png]]
+
+특정 스레드 풀에 가득차있으면 다른 스레드가 가득차 있는 큐에서 태스크를 가져와서 처리함.
+
+이전 방식과 다른 차이점들을 알아보기에는 참고할만한 소스.
+> [깃허브](https://github.com/bejancsaba/java-concurrency-evolution/blob/main/src/test/java/com/concurrency/evolution/C6_ForkJoinFramework.java)
+
+
