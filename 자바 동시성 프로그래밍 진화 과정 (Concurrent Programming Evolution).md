@@ -54,5 +54,3 @@ ExecutorService와 다른점은 작업 빼가기(work-stealing)임.
 이전 방식과 다른 차이점들을 알아보기에는 참고할만한 소스.
 > [깃허브](https://github.com/bejancsaba/java-concurrency-evolution/blob/main/src/test/java/com/concurrency/evolution/C6_ForkJoinFramework.java)
 
-
-이거 백업되고 있나 ? 
