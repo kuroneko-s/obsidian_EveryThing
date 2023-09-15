@@ -66,3 +66,5 @@ ExecutorService와 다른점은 작업 빼가기(work-stealing)임.
 - 더 개선된 함수형 프로그래밍 스타일 도입.
 - 로직을 조립(compose)하고, 결과를 모아서 처리(combine)하고, 비동기 연산 과정을 실행하고, 에러를 처리할 수 있는 50여개의 메서드 추가.
 - CompletableFuture 의 평문형 API([[fluent API]]) 대부분은 뒤에 Async 접미사가 붙은 것과 붙지 않은 것, 이렇게 2가지씩 짝지어져 있다. Async 접미사가 붙은 메서드는 해당 연산을 다른 스레드에서 실행하려고 할 때 사용된다.
+
+CompletableFuture는 자바에 몇안되는 모나드([[monad]])이다.
