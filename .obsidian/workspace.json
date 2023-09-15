@@ -147,9 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "44e2a3476afab3d7",
+  "active": "7db49e27cc4e4544",
   "lastOpenFiles": [
+    "images/image4.png",
     "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
+    "Fork&Join 프레임워크.md",
     "continuation.md",
     "면접용 알고리즘....md",
     "Reactor.md",
@@ -157,7 +159,6 @@
     "Project Loom.md",
     "fluent API.md",
     "images/image3.png",
-    "Fork&Join 프레임워크.md",
     "Fork/Join 프레임워크.md",
     "Fork",
     "images/image2.jpg",
