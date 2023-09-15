@@ -54,3 +54,15 @@ ExecutorService와 다른점은 작업 빼가기(work-stealing)임.
 이전 방식과 다른 차이점들을 알아보기에는 참고할만한 소스.
 > [깃허브](https://github.com/bejancsaba/java-concurrency-evolution/blob/main/src/test/java/com/concurrency/evolution/C6_ForkJoinFramework.java)
 
+이전과는 조금 다르게 데드락이 생기는 빈도가 적다. 아예 발생하지 않는건 아닌데, 발생한다면 원인은 어떻게 태스크를 가장 작은단위로 분할될 수 있는지가 핵심이다.
+
+깃허브쪽에 있는 예제 소스는 재귀적 분할을 할정도로 기능이 분할되어있지 않고, 성능도 좋지 않아서 ExecutorService보다 성능은 떨어지는데 데드락은 생기지 않으므로 안정성은 더 좋다고 할 수 있다.
+
+### CompletableFuture
+자바 8에 도입된 CompletableFuture는 Fork&Join 프레임워크 기반으로 만들어짐.
+연산 결과를 모아서(combine) 처리할 수 있는 메서드가 하나도 없었고, 에러 처리를 위한 방법도 없었던 Feature 인터페이스 도입 이후 진화가 CompletableFuture 에서 이루어졌다.
+
+개선점.
+- 더 개선된 함수형 프로그래밍 스타일 도입.
+- 로직을 조립(compose)하고, 결과를 모아서 처리(combine)하고, 비동기 연산 과정을 실행하고, 에러를 처리할 수 있는 50여개의 메서드 추가.
+- CompletableFuture 의 평문형 API([[fluent API]]) 대부분은 뒤에 Async 접미사가 붙은 것과 붙지 않은 것, 이렇게 2가지씩 짝지어져 있다. Async 접미사가 붙은 메서드는 해당 연산을 다른 스레드에서 실행하려고 할 때 사용된다.
