@@ -82,3 +82,12 @@ CompletableFuture가 발전해서 리액티브 방식이 됬다고 볼수있는�
 
 #### [[Project Loom]] (프로젝트 룸)
 지금 JDK 21에 정식 지원 되는 듯...
+프로젝트 룸은 가상 스레드와 관련된 기능들이 포함되어 있음.
+그렇게 될 경우 OS 스레드와 JVM 스레드는 1=1이라는 오랜 등식이 성립되지 않게 됨.
+
+주목 포인트
+- 메타데이터, 스택 메모리, 컨텍스트 스위치 시간이 네이티브 OS 스레드의 수 분의 일밖에 되지 않을만큼 가볍다 ( 가볍다는 소리 )
+- 지원이 불안정함. (JDK 21에서나 릴리스될 듯)
+
+[대충 샘플 코드](https://github.com/bejancsaba/java-concurrency-evolution-loom/blob/main/src/main/java/com/concurrency/Main.java)
+
