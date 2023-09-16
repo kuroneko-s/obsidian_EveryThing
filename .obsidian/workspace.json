@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리액티브 프로그래밍.md",
+                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리액티브 프로그래밍.md",
+                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리액티브 프로그래밍.md"
+                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md"
               }
             }
           }
@@ -160,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fc7a98fe0c3d48c",
+  "active": "b9fb256b0408a6dc",
   "lastOpenFiles": [
-    "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
     "리액티브 프로그래밍.md",
+    "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
     "fluent API.md",
     "Fork&Join 프레임워크.md",
     "continuation.md",
