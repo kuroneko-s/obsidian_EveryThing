@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "823ee9e71725f73a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -129,6 +140,16 @@
                 "file": "preemptive multi-task.md"
               }
             }
+          },
+          {
+            "id": "2914e36f1d6b3694",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ]
       }
@@ -147,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96a86f0f8fab3f1a",
+  "active": "823ee9e71725f73a",
   "lastOpenFiles": [
     "interrupt.md",
     "Untitled.md",
