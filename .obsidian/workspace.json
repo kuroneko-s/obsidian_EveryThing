@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "이벤트 기반, 메시지 기반 아키텍처.md",
+                "file": "race condition.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "이벤트 기반, 메시지 기반 아키텍처.md",
+                "file": "race condition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "이벤트 기반, 메시지 기반 아키텍처.md",
+                "file": "race condition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "이벤트 기반, 메시지 기반 아키텍처.md"
+                "file": "race condition.md"
               }
             }
           },
@@ -159,9 +159,9 @@
   },
   "active": "2916c1146d50a44d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "이벤트 기반, 메시지 기반 아키텍처.md",
     "preemptive multi-task.md",
+    "이벤트 기반, 메시지 기반 아키텍처.md",
+    "conflict-files-obsidian-git.md",
     "non-preemptive multi-task.md",
     "race condition.md",
     "interrupt.md",
