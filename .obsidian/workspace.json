@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "이벤트 기반, 메시지 기반 아키텍처.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1533d6931fea5e72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "race condition.md",
                 "mode": "source",
                 "source": false
@@ -20,18 +32,19 @@
             }
           },
           {
-            "id": "4c850b00f422cb9c",
+            "id": "5d2de129cd21afa2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Actor 모델.md",
+                "file": "Transactional memory.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
+        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "race condition.md",
+                "file": "Transactional memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "race condition.md",
+                "file": "Transactional memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "race condition.md"
+                "file": "Transactional memory.md"
               }
             }
           },
@@ -169,19 +182,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "2916c1146d50a44d",
+  "active": "5d2de129cd21afa2",
   "lastOpenFiles": [
-    "Actor 모델.md",
     "race condition.md",
+    "Transactional memory.md",
+    "상호 배제 알고리즘.md",
+    "Mutual exclusion.md",
+    "Mutex.md",
+    "Semaphore.md",
     "preemptive multi-task.md",
     "이벤트 기반, 메시지 기반 아키텍처.md",
+    "불변.md",
+    "Actor 모델.md",
     "conflict-files-obsidian-git.md",
     "non-preemptive multi-task.md",
     "interrupt.md",
     "드론.md",
     "폴링.md",
     "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
-    "상호 배제 알고리즘.md",
     "면접용 알고리즘....md",
     "리액티브 프로그래밍.md",
     "starvation.md",
@@ -192,11 +210,8 @@
     "image5.html",
     "image5 1.html",
     "deadlock.md",
-    "Semaphore.md",
     "RxJava.md",
     "Reactor.md",
-    "Mutual exclusion.md",
-    "Mutex.md",
     "fluent API.md",
     "images/image3.png",
     "Fork&Join 프레임워크.md",
@@ -204,9 +219,7 @@
     "Fork",
     "images/image2.jpg",
     "images/image1.png",
-    "continuation.md",
     "images",
-    "Project Loom.md",
     "Untitled.canvas"
   ]
 }
