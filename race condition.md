@@ -14,7 +14,7 @@ race condition 발생 조건.
 하나의 프로세스가 처리를 하는 과정에 있으면, 외부에서 끼어들지 않는 기법들이 생겨남.
 그 중 하나가 서로 협력하는 스레드가 생겨남.
 스레드는 기본적으로 preemptive(선점형)하므로 non-preemptive(비선점형)한 스레드를 만들자는 개념.
-fiber, coroutine, Green thread와 같은 기법을 사용하는 Ruby의 Fiber Class, Python이나 JS의 Generator가 그 예임.
+fiber, [[coroutine]], [[Green thread]]와 같은 기법을 사용하는 Ruby의 Fiber Class, Python이나 JS의 Generator가 그 예임.
 또 다른 하나는 처리하고 있는 스레드가 사용중인 자원에 접근하지 말라는 표식을 사용함. (Lock, [[Mutex]], [[Semaphore]])
 이 해결 방법은 deadlock에 대한 이해도가 있는 상태에서 사용해야만 함.
 그래서 이를 약간 편하게 해주는 DB의 Transaction 기법을 적용한 [[Transactional memory]] 기법이 탄생.

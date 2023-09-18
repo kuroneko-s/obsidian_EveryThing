@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "20d88bee1c093fed",
+        "id": "eca0cd8293380ad5",
         "type": "tabs",
         "children": [
           {
-            "id": "2916c1146d50a44d",
+            "id": "c93f156dd4aae426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "이벤트 기반, 메시지 기반 아키텍처.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1533d6931fea5e72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "race condition.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d2de129cd21afa2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Transactional memory.md",
+                "file": "Project Loom (미작성).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transactional memory.md",
+                "file": "Project Loom (미작성).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transactional memory.md",
+                "file": "Project Loom (미작성).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transactional memory.md"
+                "file": "Project Loom (미작성).md"
               }
             }
           },
@@ -182,16 +157,23 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "5d2de129cd21afa2",
+  "active": "c93f156dd4aae426",
   "lastOpenFiles": [
+    "Project Loom (미작성).md",
+    "Reactive Streams (미작성).md",
+    "리액티브 프로그래밍 (미작성).md",
+    "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
+    "이벤트 기반, 메시지 기반 아키텍처.md",
+    "monad.md",
     "race condition.md",
+    "Green thread.md",
+    "coroutine.md",
     "Transactional memory.md",
     "상호 배제 알고리즘.md",
     "Mutual exclusion.md",
     "Mutex.md",
     "Semaphore.md",
     "preemptive multi-task.md",
-    "이벤트 기반, 메시지 기반 아키텍처.md",
     "불변.md",
     "Actor 모델.md",
     "conflict-files-obsidian-git.md",
@@ -199,9 +181,7 @@
     "interrupt.md",
     "드론.md",
     "폴링.md",
-    "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
     "면접용 알고리즘....md",
-    "리액티브 프로그래밍.md",
     "starvation.md",
     "non thread safe.md",
     "images/image6.png",
@@ -210,12 +190,7 @@
     "image5.html",
     "image5 1.html",
     "deadlock.md",
-    "RxJava.md",
-    "Reactor.md",
-    "fluent API.md",
     "images/image3.png",
-    "Fork&Join 프레임워크.md",
-    "Fork/Join 프레임워크.md",
     "Fork",
     "images/image2.jpg",
     "images/image1.png",
