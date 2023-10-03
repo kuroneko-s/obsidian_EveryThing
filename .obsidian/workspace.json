@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "507840af4854c368",
+            "id": "2dded3030e637565",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "사업등록 신고.md",
+                "file": "드론 작업하면서 적는 내용들.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "사업등록 신고.md",
+                "file": "드론 작업하면서 적는 내용들.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "사업등록 신고.md",
+                "file": "드론 작업하면서 적는 내용들.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "사업등록 신고.md"
+                "file": "드론 작업하면서 적는 내용들.md"
               }
             }
           },
@@ -157,12 +157,13 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "507840af4854c368",
+  "active": "2dded3030e637565",
   "lastOpenFiles": [
-    "비행장치 신고.md",
-    "사업등록 신고.md",
-    "드론 작업하면서 적는 내용들.md",
     "드론.md",
+    "드론 작업하면서 적는 내용들.md",
+    "사업등록 신고.md",
+    "비행장치 신고.md",
+    "conflict-files-obsidian-git.md",
     "Transactional memory.md",
     "퍼블 작업 기록용.md",
     "리액티브 프로그래밍 (미작성).md",
@@ -182,7 +183,6 @@
     "preemptive multi-task.md",
     "불변.md",
     "Actor 모델.md",
-    "conflict-files-obsidian-git.md",
     "non-preemptive multi-task.md",
     "interrupt.md",
     "images/image6.png",
