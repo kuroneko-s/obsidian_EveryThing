@@ -62,7 +62,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -149,7 +150,7 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "21a51357c503ca92",
+  "active": "6b3928598dacfb43",
   "lastOpenFiles": [
     "상호 배제 알고리즘.md",
     "이벤트 기반, 메시지 기반 아키텍처.md",
