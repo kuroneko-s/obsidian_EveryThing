@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21a51357c503ca92",
+            "id": "3c94baaaef83062f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "키보드 연습.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -62,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "키보드 연습.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "키보드 연습.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "키보드 연습.md"
+              }
             }
           },
           {
@@ -150,8 +157,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "6b3928598dacfb43",
+  "active": "3c94baaaef83062f",
   "lastOpenFiles": [
+    "불변.md",
+    "키보드 연습.md",
+    "면접용 알고리즘....md",
     "상호 배제 알고리즘.md",
     "이벤트 기반, 메시지 기반 아키텍처.md",
     "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
@@ -175,9 +185,6 @@
     "Mutex.md",
     "Semaphore.md",
     "preemptive multi-task.md",
-    "불변.md",
-    "Actor 모델.md",
-    "non-preemptive multi-task.md",
     "images/image6.png",
     "images/image5.png",
     "images/image4.png",
