@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
+                "file": "불변.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
+                "file": "불변.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
+                "file": "불변.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md"
+                "file": "불변.md"
               }
             }
           },
@@ -159,10 +159,10 @@
   },
   "active": "3c94baaaef83062f",
   "lastOpenFiles": [
-    "키보드 연습.md",
-    "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
-    "불변.md",
     "면접용 알고리즘....md",
+    "불변.md",
+    "자바 동시성 프로그래밍 진화 과정 (Concurrent Programming Evolution).md",
+    "키보드 연습.md",
     "상호 배제 알고리즘.md",
     "이벤트 기반, 메시지 기반 아키텍처.md",
     "퍼블 작업 기록용.md",
